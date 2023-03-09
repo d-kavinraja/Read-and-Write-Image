@@ -17,6 +17,10 @@ Use imshow(window_name, image) to display the image.
 ### Step4:
 Use imwrite(filename, image) to write the image.
 ### Step5:
+
+
+
+
 End the program and close the output image windows.
 
 
