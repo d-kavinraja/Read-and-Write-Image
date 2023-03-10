@@ -17,20 +17,13 @@ Use imshow(window_name, image) to display the image.
 ### Step4:
 Use imwrite(filename, image) to write the image.
 ### Step5:
-
-
-
-
 End the program and close the output image windows.
-
-
-
 
 ## Program:
 ### Developed By: Kavinraja.D
 ### Register Number: 212222240047
 i) #To Read,display the image
-```python
+```python 3
 import cv2
 color_img=cv2.imread('212222240047(Kavinraja D).jpeg',1)
 cv2.imshow('212222240047(Kavinraja D)',color_img)
@@ -39,7 +32,7 @@ cv2.waitKey(0)
 
 ```
 ii) #To write the image
-```python
+```python 3
 import cv2
 color_img=cv2.imread('212222240047(Kavinraja D).jpeg',1)
 w=cv2.imwrite('1.jpeg',color_img)
@@ -48,7 +41,7 @@ cv2.waitKey(0)
 
 ```
 iii) #Find the shape of the Image
-```python
+```python 3
 import cv2
 colorImage = cv2.imread('212222240047(Kavinraja D).jpeg',1)
 print(colorImage.shape)
@@ -56,7 +49,7 @@ print(colorImage.shape)
 ```
 iv) #To access rows and columns
 
-```python 
+```python 3
 import cv2
 import random
 color_img=cv2.imread('212222240047(Kavinraja D).jpeg',1)
@@ -68,7 +61,7 @@ cv2.waitKey(0)
 
 ```
 v) #To cut and paste portion of image
-```python
+```python 3
 import cv2
 color_img = cv2.imread('212222240047(Kavinraja D).jpeg',1)
 tag = color_img[20:80,20:80]
