@@ -1,0 +1,5 @@
+### Developed By: Kavinraja.D
+### Register Number: 212222240047
+import cv2
+colorImage = cv2.imread('212222240047(Kavinraja D).jpeg',1)
+print(colorImage.shape)

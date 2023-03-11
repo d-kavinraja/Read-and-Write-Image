@@ -1,8 +1,7 @@
 ### Developed By: Kavinraja.D
 ### Register Number: 212222240047
 import cv2
-color_img = cv2.imread('212222240047(Kavinraja D).jpeg',1)
-tag = color_img[20:80,20:80]
-color_img[90:150,90:150] = tag
+color_img=cv2.imread('212222240047(Kavinraja D).jpeg',1)
+w=cv2.imwrite('1.jpeg',color_img)
 cv2.imshow('212222240047(Kavinraja D)',color_img)
 cv2.waitKey(0)
